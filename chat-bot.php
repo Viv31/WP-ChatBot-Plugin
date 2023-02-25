@@ -8,7 +8,7 @@ date_default_timezone_set('Asia/Kolkata');
 //menu confi platform access online status 
 
 if(!function_exists('ChtBot')){
-	//https://www.youtube.com/watch?v=L9zECQkBuWs
+	
 	function ChtBot(){ ?>
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 	  <link href="<?php echo plugin_dir_url( __DIR__ );?>/chat-bot/style.css" rel="stylesheet">
